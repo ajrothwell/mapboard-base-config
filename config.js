@@ -225,6 +225,13 @@
           },
           streetTrees: {
             url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Philadelphia_Street_Trees/FeatureServer/0',
+            type: 'http-get-nearby',
+            color: 'orange',
+            fillColor: 'orange',
+            fillOpacity: 0.5,
+            weight: 1,
+            minZoom: 16
+
           },
           vacantLand: {
             url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Vacant_Indicators_Land/FeatureServer/0',
