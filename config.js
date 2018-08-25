@@ -169,6 +169,17 @@
             year: 1860,
             attribution: 'Historic Hexamer Locher Atlas 1860'
           },
+          imagery1999: {
+            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2016_3in/MapServer',
+            label: '2016 testType',
+            tiledLayers: [
+              'imageryBasemapLabels',
+              'parcels'
+            ],
+            type: 'testType',
+            year: 2016,
+            attribution: 'Imagery 2016'
+          },
         },
         imageryTypes: {
           imagery: {
