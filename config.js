@@ -169,14 +169,14 @@
             year: 1860,
             attribution: 'Historic Hexamer Locher Atlas 1860'
           },
-          testType1999: {
+          testtype1999: {
             url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2016_3in/MapServer',
             label: '1999',
             tiledLayers: [
               'imageryBasemapLabels',
               'parcels'
             ],
-            type: 'testType',
+            type: 'testtype',
             year: 2016,
             attribution: 'Imagery 2016'
           },
