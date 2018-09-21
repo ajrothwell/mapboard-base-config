@@ -4,7 +4,7 @@
       geocoder: {
         url: function (input) {
           var inputEncoded = encodeURIComponent(input);
-          return '//ais-api-prod.us-east-1.elasticbeanstalk.com/search/' + inputEncoded;
+          return '//api.phila.gov/ais/v1/search/' + inputEncoded;
         },
         params: {
           gatekeeperKey: opts.gatekeeperKey,
