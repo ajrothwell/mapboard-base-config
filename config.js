@@ -33,6 +33,17 @@
             type: 'featuremap',
             attribution: 'Parcels: Department of Records'
           },
+          imagery2018: {
+            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2018_3in/MapServer/',
+            label: '2018',
+            tiledLayers: [
+              'imageryBasemapLabels',
+              'parcels'
+            ],
+            type: 'imagery',
+            year: 2018,
+            attribution: 'Imagery 2018'
+          },
           imagery2017: {
             url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2017_3in/MapServer',
             label: '2017',
