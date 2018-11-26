@@ -217,7 +217,7 @@
             opacity: 1.0
           },
           zoning: {
-            url: '//gis.phila.gov/arcgis/rest/services/PhilaGov/ZoningMap/MapServer',
+            url: '//gis.phila.gov/arcgis/rest/services/Atlas/ZoningMap/MapServer',
             opacity: 1.0
           },
           regmaps: {
