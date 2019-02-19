@@ -262,10 +262,10 @@
         },
         tools: {
           buffer: {
-            url: '//gis.phila.gov/arcgis/rest/services/Geometry/GeometryServer/buffer'
+            url: '//gis-utils.databridge.phila.gov/arcgis/rest/services/Utilities/Geometry/GeometryServer/buffer'
           },
           distance: {
-            url: '//gis.phila.gov/arcgis/rest/services/Geometry/GeometryServer/distance'
+            url: '//gis-utils.databridge.phila.gov/arcgis/rest/services/Utilities/Geometry/GeometryServer/distance'
           }
         }
       },
